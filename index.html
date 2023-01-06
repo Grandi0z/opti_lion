@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family='Gothic A1'">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="home" class="home">
+        <header id="home_header">
+            <nav class="navbar navbar-light nav_mobil">
+                <div class="container">
+                    <a class="navbar-brand navMobil_links" id="mobile_menu_links">
+                        <i class="bi bi-list" id="hamburger"></i>
+                        <i class="bi bi-x-lg hidden" id="x_icon"></i>
+                    </a>
+                </div>
+            </nav>
+            <nav id="mobile_nemu" class="hiddenNav">
+              <ul id="mobile_menu_liste">
+                  <li class="hiddenListContent"><a href="index.html"> Home</a></li>
+                  <li class="hiddenListContent"><a href="about.html"> About </a></li>
+              </ul>
+            </nav>
+            <div class="container-fluid p-0 nav_desk">
+              <nav class="navbar" id="nav_desk_1">
+                <div class="container-fluid d-flex flex-column align-items-end">
+                  <ul class=" d-flex nav_desk_list" id="nav_desk_list_1">
+                    <li><a href="https://www.facebook.com/events/1455321544773645/"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/cckorea"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="https://radiokapi.cd/" target="_blank">English</a></li>
+                    <li><a href="#" target="_blank">My Page</a></li>
+                    <li><a href="#" target="_blank">Logout</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <nav class="navbar navbar-light shadow  bg-light" id="nav_desk_2">
+                <div class="container-fluid ">
+                  <a class="navbar-brand logo_top" href="index.html"><img src="images/logo_top.svg" alt="opti lion logo"></a>
+                  <ul class=" d-flex nav_desk_list" id="nav_desk_list_2">
+                    <li><a href="about.html" class="selected_link">About</a></li>
+                    <li><a href="#">Program</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Sponsor</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#" class="selected_link" id="link_campain">Opti Lion Campaign</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <p class="fs-3 red_font welcome_msg" id="welcome_msg">"hello welcome to the future"</p>
+            <h1 class="h1 display-1 red_font main_head welcome_msg" id="main_head"  >OPTI LION EXHIBITION</h1>
+        </header>
+        <p class="paragraph" id="main_paragraph">A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.</p>
+        <article id="expo">
+            <header id="expo_head">
+                <time datetime="2023-02-16" class="display-3 expo_time">2023.2.16 (Th) </time> &sim; <time datetime="2023-02-18" class="display-3 expo_time">18 (Sa)</time>
+            </header>
+            <p class="paragraph" id="place_point">@ Okapi palace Great hall </p>
+        </article>
+    </section>
+    <section class="main_program d-flex" id="main_program">
+        <header id="program_header">
+            <h2 id="program_head">Main Program</h2>
+            <span class="red_line"></span>
+        </header>
+        <section id="program_box" class="d-flex">
+            <article class="card program_item border-0">
+                <div class="row g-0 d-flex">
+                  <div class="col-2">
+                    <img src="images/lecture_icon_01 1.svg" class=" rounded-start program_icon" alt="lecture">
+                  </div>
+                  <div class="col-3">
+                    <div class="card-title" style="max-width: auto;">
+                      <h5 class="program_items_title">Lecture</h5>
+                    </div>
+                  </div>
+                  <div class="col-7">
+                    <div class="card-body">
+                      <p class="card-text program_items_content">Listen to the speakers from various countries about the messages of sharing and opening.</p>
+                    </div>
+                  </div>
+                </div>
+            </article>
+            <article class="card program_item border-0">
+              <div class="row g-0 d-flex">
+                <div class="col-2">
+                  <img src="images/exhibition_icon_02 1.svg" class=" rounded-start program_icon" alt="exhibition">
+                </div>
+                <div class="col-3">
+                  <div class="card-title" style="max-width: auto;">
+                    <h5 class="program_items_title exhibition_title">Opti Exhibition</h5>
+                  </div>
+                </div>
+                <div class="col-7">
+                  <div class="card-body">
+                    <p class="card-text program_items_content">Appreciate various creations applying a license of artists, organized from Art Center Opti Lion</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="card program_item border-0">
+              <div class="row g-0 d-flex">
+                <div class="col-2">
+                  <img src="images/forum_icon_03 1.svg" class=" rounded-start program_icon" alt="forum">
+                </div>
+                <div class="col-3">
+                  <div class="card-title" style="max-width: auto;">
+                    <h5 class="program_items_title">Forum</h5>
+                  </div>
+                </div>
+                <div class="col-7">
+                  <div class="card-body">
+                    <p class="card-text program_items_content">Have the time to share your thoughts and opinions with experts for each topic.</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="card program_item border-0">
+              <div class="row g-0 d-flex">
+                <div class="col-2">
+                  <img src="images/workshop_icon_04 1.svg" class=" rounded-start program_icon" alt="Workshop">
+                </div>
+                <div class="col-3">
+                  <div class="card-title" style="max-width: auto;">
+                    <h5 class="program_items_title">Workshop</h5>
+                  </div>
+                </div>
+                <div class="col-7">
+                  <div class="card-body">
+                    <p class="card-text program_items_content">Try creating your own work using open source license rather than just watching at it.</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="card program_item border-0">
+              <div class="row g-0 d-flex">
+                <div class="col-2">
+                  <img src="images/ignite_icon_05 1.svg" class=" rounded-start program_icon" alt="Ignite">
+                </div>
+                <div class="col-3">
+                  <div class="card-title" style="max-width: auto;">
+                    <h5 class="program_items_title">Opti Ignite</h5>
+                  </div>
+                </div>
+                <div class="col-7">
+                  <div class="card-body">
+                    <p class="card-text program_items_content">get opportunities to network with CC affiliates around the world, also after the summit.</p>
+                  </div>
+                </div>
+              </div>
+            </article> 
+        </section> 
+        <button type="button" class="btn btn btn-danger btn-lg rounded-0" id="btn_join">Join Opti Lion exhibition</button>
+        <a href="#" class="see_program">SEE THE WHOLE PROGRAM</a>
+    </section>
+    <section id="featured_speaker" class="d-flex flex-column align-items-center">
+        <header id="speaker_header">
+            <h2 id="speaker_head">Featured Speaker</h2>
+            <span class="red_line"></span>
+        </header>
+        <section id="speaker_box" class="d-flex">
+            <article class="card speaker_item" id="speaker_item_1">
+                <div class="row g-0">
+                  <div class="col-4">
+                    <img src="images/speaker_01 1.svg" class="img-fluid rounded-start border-0 img_expo" alt="first speaker : Yochai Benkler">
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body card_body">
+                      <header id="" class="card-title">
+                        <h4 id="speaker_Item_head_1" class="speaker_Item_head">Yochai Benkler</h4>
+                        <p id="speaker_Item_prof_1" class="speaker_Item_prof">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                        <span class="grey_line"></span>
+                    </header>
+                      <p class="card-text">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
+                    </div>
+                  </div>
+                </div>
+            </article>
+            <article class="card speaker_item" id="speaker_item_2">
+              <div class="row g-0">
+                <div class="col-4">
+                  <img src="images/speaker_02 2.svg" class="img-fluid rounded-start img_expo" alt="second speaker : SohYeong Noh">
+                </div>
+                <div class="col-8">
+                  <div class="card-body card_body">
+                    <header id="" class="card-title">
+                      <h4 id="speaker_Item_head_2" class="speaker_Item_head">SohYeong Noh</h4>
+                      <p id="speaker_Item_prof_2" class="speaker_Item_prof">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                      <span class="grey_line"></span>
+                  </header>
+                    <p class="card-text">As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.</p>
+                  </div>
+                </div>
+              </div>
+              </article>
+                      <article class="card speaker_item" id="speaker_item_1">
+                        <div class="row g-0">
+                          <div class="col-4">
+                            <img src="images/speaker_01 1.svg" class="img-fluid rounded-start border-0 img_expo" alt="first speaker : Yochai Benkler">
+                          </div>
+                          <div class="col-8">
+                            <div class="card-body card_body">
+                              <header id="" class="card-title">
+                                <h4 id="speaker_Item_head_1" class="speaker_Item_head">Yochai Benkler</h4>
+                                <p id="speaker_Item_prof_1" class="speaker_Item_prof">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                                <span class="grey_line"></span>
+                            </header>
+                              <p class="card-text">Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
+                            </div>
+                          </div>
+                        </div>
+                    </article>
+                    <article class="card speaker_item" id="speaker_item_2">
+                      <div class="row g-0">
+                        <div class="col-4">
+                          <img src="images/speaker_02 2.svg" class="img-fluid rounded-start img_expo" alt="second speaker : SohYeong Noh">
+                        </div>
+                        <div class="col-8">
+                          <div class="card-body card_body">
+                            <header id="" class="card-title">
+                              <h4 id="speaker_Item_head_2" class="speaker_Item_head">SohYeong Noh</h4>
+                              <p id="speaker_Item_prof_2" class="speaker_Item_prof">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                              <span class="grey_line"></span>
+                          </header>
+                            <p class="card-text">As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+          
+            <button type="button" class="btn btn-outline-dark btn-lg shadow" id="btn_more">MORE <i class="bi bi-chevron-compact-down ms-1 mb-5" id="drop_down" style="color: red;"></i></button>
+        </section>
+    </section>
+
+    <section id="about">
+        <article id="partner_1" class="d-flex flex-column align-items-center ">
+            <h2 id="partner_title" class="about_titles">
+                Partner   
+            </h2>
+            <span class="red_line line_patner"></span>
+            <ul id="partner_list" class="d-flex flex-row align-items-center justify-content-center">
+                <li class="partner_item"><a href="https://www.mozilla.org"><img src="images/mozilla 1.svg" alt="logo mozila"></li>
+                <li class="partner_item"><a href="https://www.mozilla.org"><img src="images/googlekorea 1.svg" alt="logo google"></li>
+                <li class="partner_item"><a href="https://www.mozilla.org"><img src="images/naver 1.svg" alt="logo naver"></li>
+                <li class="partner_item"><a href="https://www.mozilla.org"><img src="images/daumkakaologo 1.svg" alt="logo daumkakao"></li>
+                <li class="partner_item"><a href="https://www.mozilla.org"><img src="images/airbnb 1.svg" alt="logo airbnb"></li>
+            </ul>
+        </article>
+    </section>
+    <footer>
+      <img src="images/cck-logo1 1.svg" alt="logo opti lion">
+      <p class="paragraph footer_paragrap">2023 Opti Lion all Rights Reserved</p>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

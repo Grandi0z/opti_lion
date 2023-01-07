@@ -464,7 +464,7 @@ footer {
 
 /* DESKTOP VERSION */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .home > * {
     margin-left: 0;
   }
@@ -871,5 +871,78 @@ footer {
 
   #loto_black {
     display: none;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  .nav_mobil {
+    display: none;
+  }
+
+  .nav_desk {
+    display: block;
+    height: auto;
+  }
+
+  .nav_desk > nav[id=nav_desk_1] {
+    background-color: rgb(24, 26, 26);
+    text-align: right;
+    height: 40px;
+  }
+
+  .nav_desk_list {
+    list-style: none;
+    column-gap: 23px;
+    margin-right: 157px;
+  }
+
+  #nav_desk_list_2 {
+    column-gap: 47px;
+  }
+
+  .nav_desk_list > li > a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #nav_desk_list_2 > li > a {
+    color: rgb(24, 26, 26);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .logo_top {
+    margin-left: 176px;
+  }
+
+  #nav_desk_list_2 > li > a[class=selected_link] {
+    color: #f78c89;
+  }
+
+  #link_campain {
+    border: #f78c89 solid 2px;
+    padding: 11px;
+    display: block;
+  }
+
+  .featured_speaker {
+    height: 100%;
+  }
+
+  .lst_expo {
+    flex-direction: row;
+    list-style: none;
+    margin: 36px auto 41px auto;
+    row-gap: 29px;
+    padding: 0;
+    width: 100%;
+  }
+
+  #partner_2 {
+    width: 105%;
+  }
+
+  .speaker_item {
+    width: 90%;
   }
 }

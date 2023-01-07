@@ -80,11 +80,11 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [View](...)
+- [View](https://grandi0z.github.io/opti_lion/)
+- [Video] (https://www.loom.com/share/76046389022847beab2047b446c1a5c4)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -100,7 +100,7 @@ Fork this project
 Clone this repository to your desired folder:
 
 - cd foldername
-- git clone https://github.com/Grandi0z/Opti-Lion.git
+- git clone https://github.com/Grandi0z/Opti_Lion.git
 
 ### Install
 
@@ -155,7 +155,7 @@ To deploy this project :
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Grandi0z/Opti-Lion/issues).
+Feel free to check the [issues page](https://github.com/Grandi0z/Opti_Lion/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

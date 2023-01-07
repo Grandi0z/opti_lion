@@ -521,6 +521,7 @@ footer {
 
   #nav_desk_list_2 > li > a[class=selected_link] {
     color: #f78c89;
+    display: block;
   }
 
   #link_campain {
@@ -649,7 +650,7 @@ footer {
 
   /* speaker section */
   #featured_speaker {
-    height: 100vh;
+    height: 100%;
   }
 
   #speaker_header {
@@ -874,7 +875,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 400px) and (max-width: 800px) {
+@media screen and (min-width: 500px) and (max-width: 800px) {
   .nav_mobil {
     display: none;
   }
@@ -895,6 +896,10 @@ footer {
     column-gap: 23px;
     margin-right: 157px;
   }
+
+  .card-text {
+    font-size: 12px;
+}
 
   #nav_desk_list_2 {
     column-gap: 47px;
@@ -920,9 +925,7 @@ footer {
   }
 
   #link_campain {
-    border: #f78c89 solid 2px;
-    padding: 11px;
-    display: block;
+    display: none;
   }
 
   .featured_speaker {
